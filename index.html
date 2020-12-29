@@ -4,9 +4,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
-<script src="./p5.play.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxEBtcGEGo4wmzPsdusGZul-OmcH3yKP4",
+    authDomain: "ludo-c3958.firebaseapp.com",
+    projectId: "ludo-c3958",
+    storageBucket: "ludo-c3958.appspot.com",
+    messagingSenderId: "737386959294",
+    appId: "1:737386959294:web:32f7943880511d619029ef"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+
+
+
+    <script src="./p5.play.js"></script>
 
 <script src="form.js"></script>
+<script src="player.js"></script>
 <script src="coin.js"></script>
 <script src="board.js"></script>
 <script src="dice.js"></script>
