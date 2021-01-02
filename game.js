@@ -39,7 +39,7 @@ class Game {
       
       if(allPlayers !== undefined){
         //var display_position = 100;
-        background(198,135,103);
+
       
         //index of the array
         var index = 0;
@@ -56,8 +56,7 @@ class Game {
           x = x + 200;
           //use data form the database to display the cars in y direction
           y = displayHeight - allPlayers[plr].distance;
-          cars[index-1].x = x;
-          cars[index-1].y = y;
+
   
 
          
