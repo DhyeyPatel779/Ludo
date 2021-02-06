@@ -39,23 +39,24 @@ class Game {
       
       if(allPlayers !== undefined){
         //var display_position = 100;
-
+dice = new Dice(100,50);
+dice.display();
       
         //index of the array
         var index = 0;
   
         //x and y position of the cars
-        var x = 175;
-        var y;
+   //     var x = 175;
+   //     var y;
   
         for(var plr in allPlayers){
           //add 1 to the index for every loop
           index = index + 1 ;
   
           //position the cars a little away from each other in x direction
-          x = x + 200;
+        //  x = x + 200;
           //use data form the database to display the cars in y direction
-          y = displayHeight - allPlayers[plr].distance;
+         // y = displayHeight - allPlayers[plr].distance;
 
   
 

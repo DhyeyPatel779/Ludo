@@ -8,6 +8,7 @@ var distance = 0;
 var database;
 var game;
 var ludoBoard,boardImg
+var dice;
 
 function preload(){
 boardImg = loadImage("ludoBoard.png");

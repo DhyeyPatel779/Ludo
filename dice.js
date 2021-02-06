@@ -9,12 +9,14 @@ this.height = 20;
 display(){
 fill("white");
 rect(this.x,this.y)
-
+if(keyDown("SPACE")){
+    var number = Math.round(random(1,6));
+console.log(number);
+text(2,50,50);
+}
 }
 
 
-mousePressed(){
-var number = random(1,6);
-text(number,x/2,y/2);
-}
+
+
 }

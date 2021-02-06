@@ -34,6 +34,7 @@ class Form {
         ludoBoard = createSprite(displayWidth/2,displayHeight/2,200,200);
         ludoBoard.addImage("ludoBoard.png",boardImg);
         ludoBoard.scale=0.5;
+
       });
       this.reset.mousePressed(()=>{
         player.updateCount(0);
